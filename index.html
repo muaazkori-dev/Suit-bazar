@@ -3,172 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaprey | Premium Suit Delivery</title>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- CSS -->
+    <title>Neo-Tech Portal | The Future. Rewired.</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background-elements">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-    </div>
-
-    <nav class="navbar">
-        <div class="logo">
-            <i class="ri-vip-diamond-line"></i> KAPREY
-        </div>
-        <ul class="nav-links">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#collection">Collection</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-        <div class="nav-actions">
-            <button class="cart-btn">
-                <i class="ri-shopping-bag-3-line"></i>
-                <span class="cart-count">0</span>
-            </button>
-        </div>
-    </nav>
+    <header class="navbar hidden">
+        <div class="logo">NEO-TECH</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#specs">Specs</a>
+            <a href="#footer">Contact</a>
+        </nav>
+    </header>
 
     <main>
-        <section class="hero" id="home">
+        <section id="hero" class="hero hidden">
             <div class="hero-content">
-                <span class="badge">New Arrival 2026</span>
-                <h1>Elevate Your <br><span class="gradient-text">Signature Style</span></h1>
-                <p>Discover premium bespoke and ready-to-wear suits delivered instantly to your doorstep. Experience the perfect blend of modern luxury and timeless elegance.</p>
-                <div class="hero-actions">
-                    <a href="#collection" class="btn btn-primary">Explore Collection <i class="ri-arrow-right-line"></i></a>
-                    <a href="#" class="btn btn-secondary">How it Works</a>
-                </div>
+                <h1>THE FUTURE. <br><span class="highlight">REWIRED.</span></h1>
+                <p>Experience the next level of cyber-minimalism.</p>
+                <a href="#features" class="btn-glowing">Explore Evolution</a>
             </div>
             <div class="hero-visual">
-                <div class="glass-card main-showcase">
-                    <img src="https://images.unsplash.com/photo-1594938298596-70f56fb41f05?q=80&w=1000&auto=format&fit=crop" alt="Premium Suit">
-                    <div class="showcase-details">
-                        <div class="info">
-                            <h3>Midnight Tuxedo</h3>
-                            <p>Italian Wool</p>
-                        </div>
-                        <div class="price">$899</div>
-                    </div>
+                <!-- 3D Gadget Placeholder -->
+                <div class="vr-headset-placeholder">
+                    <div class="vr-lens"></div>
+                    <div class="vr-lens"></div>
                 </div>
             </div>
         </section>
 
-        <section class="collection" id="collection">
-            <div class="section-header">
-                <h2>Featured <span class="gradient-text">Suits</span></h2>
-                <p>Hand-picked for the modern gentleman</p>
-            </div>
-            
-            <div class="grid-container">
-                <!-- Product 1 -->
-                <div class="product-card glass-card">
-                    <div class="img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e5?q=80&w=800&auto=format&fit=crop" alt="Navy Blue Suit">
-                        <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
-                    </div>
-                    <div class="product-info">
-                        <span class="category">Business Classic</span>
-                        <h3>Royal Navy Suit</h3>
-                        <div class="product-footer">
-                            <span class="price">Rs. 24,999</span>
-                            <button class="add-to-cart"><i class="ri-shopping-cart-2-line"></i></button>
-                        </div>
-                    </div>
+        <section id="features" class="bento-section hidden">
+            <h2 class="section-title">Core Innovations</h2>
+            <div class="bento-grid">
+                <div class="bento-card card-a">
+                    <h3>8K Retina</h3>
+                    <p>Crystal clear display tech pushing the boundaries of reality.</p>
                 </div>
-
-                <!-- Product 2 -->
-                <div class="product-card glass-card">
-                    <div class="img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e?q=80&w=800&auto=format&fit=crop" alt="Charcoal Grey Suit">
-                        <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
-                    </div>
-                    <div class="product-info">
-                        <span class="category">Formal Wear</span>
-                        <h3>Charcoal Grey 3-Piece</h3>
-                        <div class="product-footer">
-                            <span class="price">Rs. 32,500</span>
-                            <button class="add-to-cart"><i class="ri-shopping-cart-2-line"></i></button>
-                        </div>
-                    </div>
+                <div class="bento-card card-b">
+                    <h3>Neural Power</h3>
+                    <p>Advanced processing tailored for complex cognitive tasks.</p>
                 </div>
-
-                <!-- Product 3 -->
-                <div class="product-card glass-card">
-                    <div class="img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800&auto=format&fit=crop" alt="Bespoke Suit">
-                        <span class="tag">Bestseller</span>
-                        <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
-                    </div>
-                    <div class="product-info">
-                        <span class="category">Wedding Collection</span>
-                        <h3>Walnut Brown Blazer</h3>
-                        <div class="product-footer">
-                            <span class="price">Rs. 18,000</span>
-                            <button class="add-to-cart"><i class="ri-shopping-cart-2-line"></i></button>
-                        </div>
-                    </div>
+                <div class="bento-card card-c">
+                    <h3>72H Battery</h3>
+                    <p>Unmatched energy efficiency for extended immersion.</p>
                 </div>
-                
-                <!-- Product 4 -->
-                <div class="product-card glass-card">
-                    <div class="img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1617137968427-85924c800b22?q=80&w=800&auto=format&fit=crop" alt="Vintage Checkered Suit">
-                        <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
-                    </div>
-                    <div class="product-info">
-                        <span class="category">Smart Casual</span>
-                        <h3>Vintage Checkered</h3>
-                        <div class="product-footer">
-                            <span class="price">Rs. 21,500</span>
-                            <button class="add-to-cart"><i class="ri-shopping-cart-2-line"></i></button>
-                        </div>
-                    </div>
+                <div class="bento-card card-d">
+                    <h3>Global Sync</h3>
+                    <p>Instantaneous connectivity anywhere on the planet.</p>
                 </div>
             </div>
         </section>
-        
-        <section class="features">
-            <div class="feature-item glass-card">
-                <i class="ri-truck-line"></i>
-                <h4>Express Delivery</h4>
-                <p>Nationwide delivery within 2-3 business days.</p>
-            </div>
-            <div class="feature-item glass-card">
-                <i class="ri-scissors-2-line"></i>
-                <h4>Perfect Fit</h4>
-                <p>Custom tailoring available for every order.</p>
-            </div>
-            <div class="feature-item glass-card">
-                <i class="ri-shield-check-line"></i>
-                <h4>Premium Quality</h4>
-                <p>Imported fabrics with high-end stitching.</p>
+
+        <section id="specs" class="specs-section hidden">
+            <h2 class="section-title">Technical Specifications</h2>
+            <div class="table-container">
+                <table class="specs-table">
+                    <tbody>
+                        <tr>
+                            <th>Display</th>
+                            <td>Micro-OLED 8K per eye, 120Hz refresh rate</td>
+                        </tr>
+                        <tr>
+                            <th>Processor</th>
+                            <td>Quantum Neural Core (QNC) v9.0</td>
+                        </tr>
+                        <tr>
+                            <th>Battery</th>
+                            <td>Graphene Solid-State, 72 hours runtime</td>
+                        </tr>
+                        <tr>
+                            <th>Connectivity</th>
+                            <td>Hyper-Link 6G, Low Earth Orbit sync</td>
+                        </tr>
+                        <tr>
+                            <th>Weight</th>
+                            <td>215 grams (Ultra-lightweight alloy)</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer id="footer" class="hidden">
         <div class="footer-content">
-            <div class="footer-logo">
-                <i class="ri-vip-diamond-line"></i> KAPREY
-                <p>Redefining menswear for the modern era.</p>
-            </div>
             <div class="footer-links">
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms of Service</a>
-                <a href="#">Contact Us</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="newsletter">
+                <p>Join the Neo-Circle</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
             </div>
         </div>
-        <div class="copyright">
-            &copy; 2026 Kaprey Delivery. All rights reserved.
+        <div class="footer-bottom">
+            &copy; 2026 Neo-Tech Portal. All rights reserved.
         </div>
     </footer>
 
